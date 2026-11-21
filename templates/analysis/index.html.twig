@@ -1,0 +1,36 @@
+{% extends 'page.html.twig' %}
+
+{% block content %}
+    <div class="page-wrapper">
+        <div class="page-header">
+            <div class="container-xl">
+                <h2 class="page-title">Statistiken</h2>
+            </div>
+        </div>
+
+        <div class="page-body">
+            <div class="container-xl">
+
+                <div class="row row-deck row-cards">
+
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">
+                                    Monatsübersicht
+                                </h3>
+                            </div>
+
+                            <div class="card-body">
+                                <canvas id="statisticsChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

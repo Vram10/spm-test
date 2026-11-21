@@ -1,0 +1,20 @@
+<li class="nav-item dropdown">
+    <a class="nav-link cursor-pointer d-flex lh-1 text-reset px-2" data-bs-toggle="dropdown">
+        <span class="avatar avatar-sm">
+            {{ app.user.name|split(' ')|map(word => word|first|upper)|join }}
+        </span>
+        <div class="d-none d-xl-block ps-2 user-select-none">
+            <div>{{ app.user.name }}</div>
+        </div>
+    </a>
+    <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+        <a href="{{ path('app_index') }}" class="dropdown-item">
+            <i class="ti ti-large ti-certificate me-2"></i>
+            {{ 'user.user_certificate' | trans }}
+        </a>
+        <a href="{{ path('app_logout') }}" class="dropdown-item text-danger">
+            <i class="ti ti-large ti-logout me-2"></i>
+            {{ 'user.logout' | trans }}
+        </a>
+    </div>
+</li>

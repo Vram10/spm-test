@@ -1,0 +1,77 @@
+action:
+    register: Neu registrieren
+    login: Anmelden
+    save: Speichern
+    new: Neu
+    continue: Fortfahren
+    use_certificate: Mein Zertifikat verwenden
+    upload_certificate: Ein Zertifikat hochladen
+    visit_source: "Zur Quelle '%title%'"
+    back_to_overview: Zurück zur Übersicht
+    edit: Bearbeiten
+    analyse: Analyse starten
+
+title:
+    login: Melde dich an
+    register: Registriere dich
+    data_source: Datenquellen
+    user_certificate: Meine Zertifikate
+
+subtitle:
+    data_source:
+        browse: Alle Daten durchsuchen
+        new: Neue Datenquelle anlegen
+        certificate: Mit Zertifikat sichern
+    user_certificate:
+        index: Meine Zertifikate einsehen
+        new: Neues Zertifikat speichern
+
+label:
+    name: Dein Name
+    email: Email-Adresse
+    usrname: Benutzername
+    password: Passwort
+    password_repeat: Passwort wiederholen
+    login:
+        forgot_password: I forgor
+        remember_me: Diesen Login zukünftig speichern
+    data_source_type: Datenquellen-Typ
+    data_source_area: Bereich
+    data_source:
+        title: Titel
+        description: Beschreibung
+        link: Link zur Datenquelle
+        author: Author
+        security:
+            _: Sicherung
+            public: Öffentlich
+            private_certificate: Mit Zertifikat gesichert
+            private_request: Auf Anfrage gesichert
+    user_certificate:
+        name: Name
+        file_size: Dateigröße
+        select: Mein Zertifikat auswählen
+    private_certificate_file: Private Zertifikats-PEM-Datei
+    created_at: Erstellt am
+    updated_at: Aktualisiert am
+
+placeholder:
+    email: user@example.org
+    password: '*******'
+    username: m.mustermann
+
+popover:
+    data_source_security:
+        private_certificate: Diese Datenquelle ist per Zertifikat gesichert, sodass du beim Zugriff eines zur Verifizierung hochladen musst.
+        private_request: Diese Datenquelle ist per Anfrage gesichert, sodass du Zugriff beim Author anfragen und dieser jene bestätigen muss.
+
+user:
+    user_certificate: Meine Zertifikate
+    logout: Abmelden
+
+pagination:
+    next: Weiter
+    previous: Zurück
+    current_page: Aktuelle Seite %page%
+    next_page: Zur nächsten Seite
+    previous_page: Zur vorherigen Seite

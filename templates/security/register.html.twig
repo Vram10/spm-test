@@ -1,0 +1,24 @@
+{% extends 'security/base.html.twig' %}
+
+{% block error_title %}Registrierung fehlgeschlagen{% endblock %}
+
+{% block card %}
+    <h2 class="h2 text-center mb-4">
+        {{ 'title.register' | trans }}
+    </h2>
+    {{ form_start(form) }}
+    <div class="mb-3">
+        {{ form_label(form.username) }}
+        {{ form_widget(form.username) }}
+    </div>
+    <div class="mb-3">
+        {{ form_row(form.password) }}
+    </div>
+
+    <div class="form-footer">
+        <button type="submit" class="btn btn-primary w-100">
+            {{ 'action.register' | trans }}
+        </button>
+    </div>
+    {{ form_end(form) }}
+{% endblock %}

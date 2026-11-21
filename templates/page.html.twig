@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="page">
+        {% include 'include/header.html.twig' %}
+
+        <div class="page-wrapper">
+            <div class="page-header d-print-none">
+                {% block page_header %}
+                    <div class="container-xl">
+                        <div class="row g-2 align-items-center">
+                            <div class="col">
+                                {% block page_title %}{% endblock %}
+                            </div>
+                            {% if page_actions is defined %}
+                                <div class="col-auto ms-auto">
+                                    <div class="btn-list">
+                                        {{ page_actions }}
+                                    </div>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endblock %}
+            </div>
+
+            <div class="page-body">
+                <div class="container-xl">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+            </div>
+
+            {% include 'include/footer.html.twig' %}
+        </div>
+    </div>
+{% endblock %}

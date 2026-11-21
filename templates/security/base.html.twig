@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="page">
+        {% include 'include/header.html.twig' %}
+
+        <div class="container container-tight py-4 position-absolute top-50 start-50 translate-middle">
+            {% if error is defined and error %}
+                <div class="alert alert-danger" role="alert">
+                    <div class="alert-icon">
+                        <i class="ti ti-mood-sad"></i>
+                    </div>
+                    <div>
+                        <h4 class="alert-heading">{% block error_title %}{% endblock %}</h4>
+                        <div class="alert-description">
+                            {{ error.messageKey | trans(error.messageData, 'security') }}
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+
+            <div class="card card-md">
+                <div class="card-body">
+                    {% block card %}{% endblock %}
+                </div>
+            </div>
+        </div>
+
+        {% include 'include/footer.html.twig' %}
+    </div>
+{% endblock %}
