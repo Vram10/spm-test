@@ -16,6 +16,7 @@ services:
       MERCURE_JWT_SECRET: ${CADDY_MERCURE_JWT_SECRET:-!ChangeThisMercureHubJWTSecretKey!}
       MERCURE_JWT_ISSUER: ${CADDY_MERCURE_JWT_ISSUER:-https://localhost}
     volumes:
+      - .:/app
       - caddy_data:/data
       - caddy_config:/config
     ports:
@@ -54,6 +55,20 @@ services:
       # You may use a bind-mounted host directory instead, so that it is harder to accidentally remove the volume and lose all your data!
       # - ./docker/db/data:/var/lib/postgresql/data:rw
 ###< doctrine/doctrine-bundle ###
+
+  ### hier die java api
+  hello-api:
+    image: eclipse-temurin:21-jre
+    container_name: hello-api
+    working_dir: /app
+    volumes:
+      - ./docker/java:/app:ro
+      - ./public/uploads:/data/php-public:ro
+    command: ["java", "-jar", "/app/hallo-welt-api.jar"]
+    restart: unless-stopped
+    expose:
+      - "8080"
+
 
 volumes:
   caddy_data:

@@ -5,30 +5,138 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83a5fd96-ff0e-4619-9159-59a5018e5ff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/statistics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/AnalysisController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ApiController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/AnalyseFileType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/LoginFormType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/RegisterFormType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/FileUploader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/analysis/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/include/_signing.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/include/_user.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/include/footer.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/include/header.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/page.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/security/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/security/register.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/messages.de.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/security.de.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/java/hallo-welt-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/ApiService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/analysis/test.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.devcontainer/compose.devcontainer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.devcontainer/compose.devcontainer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.devcontainer/devcontainer.json" beforeDir="false" afterPath="$PROJECT_DIR$/.devcontainer/devcontainer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.dev" beforeDir="false" afterPath="$PROJECT_DIR$/.env.dev" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/dependabot.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/dependabot.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/linters/zizmor.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/linters/zizmor.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/app.IXoBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/app.IXoBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/app.IXoBAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/app.IXoBAA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/app.IXoBAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/app.IXoBAA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/app.IXoBAA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/app.IXoBAA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/baf0a0e8-e376-42e7-af90-441a259006f5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/AGENTS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/statistics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compose.override.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.override.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.prod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.prod.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/asset_mapper.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/asset_mapper.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/csrf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/csrf.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/property_info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/property_info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/validator.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/web_profiler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/preload.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/preload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/reference.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/reference.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/web_profiler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/agents.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/agents.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/alpine.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/alpine.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/digitalocean-dns.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/digitalocean-dns.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/digitalocean-droplet.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/digitalocean-droplet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/existing-project.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/existing-project.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/extra-services.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/extra-services.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/makefile.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/makefile.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mysql.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mysql.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/options.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/options.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/production.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/production.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tls.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tls.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/troubleshooting.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/troubleshooting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/updating.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/updating.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/xdebug.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/xdebug.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frankenphp/Caddyfile" beforeDir="false" afterPath="$PROJECT_DIR$/frankenphp/Caddyfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frankenphp/conf.d/10-app.ini" beforeDir="false" afterPath="$PROJECT_DIR$/frankenphp/conf.d/10-app.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frankenphp/conf.d/20-app.dev.ini" beforeDir="false" afterPath="$PROJECT_DIR$/frankenphp/conf.d/20-app.dev.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frankenphp/conf.d/20-app.prod.ini" beforeDir="false" afterPath="$PROJECT_DIR$/frankenphp/conf.d/20-app.prod.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frankenphp/docker-entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/frankenphp/docker-entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/importmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20261120205816.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20261120205816.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20261120215343.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20261120215343.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20261121194231.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20261121194231.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/brochures/Report-Gruppe-C1-Woche-7-6b0201b705e65.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/brochures/Report-v3-5-6b01f8b66d1b1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/brochures/Report-v3-5-6b01f8c07165b.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/brochures/Report-v3-5-6b01f9685e226.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/brochures/Report-v3-5-6b01f979ae550.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/brochures/Report-v3-5-6b01f986836a7.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/brochures/Report-v3-5-6b01f99663c35.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/brochures/Report-v3-5-6b01f9a1bf4d0.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/brochures/Report-v3-5-6b02015d6ee6b.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/brochures/netzplan-C1-compared-6b020185d61ea.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/brochures/netzplan-C1-compared-6b0201aee3742.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AnalysisController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AnalysisController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/AnalyseFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/AnalyseFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/AnalyseFileType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/AnalyseFileType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/LoginFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/LoginFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/RegisterFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegisterFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/AnalyseFileRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/AnalyseFileRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/FileUploader.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/FileUploader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/analysis/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/analysis/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/include/_signing.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/_signing.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/include/_user.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/_user.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/include/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/include/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/register.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/messages.de.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/translations/messages.de.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/security.de.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/translations/security.de.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +151,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="PHP File" />
       </list>
     </option>
   </component>
@@ -165,35 +274,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu-22.04/home/marvin/neu/spm/templates&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu-22.04/home/marvin/neu/spm-test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl.localhost\Ubuntu-22.04\home\marvin\neu\spm\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu-22.04\home\marvin\neu\spm-test\docker\java" />
       <recent name="\\wsl.localhost\Ubuntu-22.04\home\marvin\neu\spm\templates" />
       <recent name="\\wsl.localhost\Ubuntu-22.04\home\marvin\neu\spm\templates\index" />
     </key>
@@ -220,6 +330,7 @@
       <workItem from="1795206522472" duration="3223000" />
       <workItem from="1795209775839" duration="1935000" />
       <workItem from="1795282964306" duration="6397000" />
+      <workItem from="1795298636741" duration="3936000" />
     </task>
     <servers />
   </component>

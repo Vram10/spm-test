@@ -10,7 +10,7 @@ use Symfony\Component\String\Slugger\SluggerInterface;
 class FileUploader
 {
     public function __construct(
-        #[Autowire('%kernel.project_dir%/public/uploads/brochures')]
+        #[Autowire('%kernel.project_dir%/public/uploads')]
         private string $targetDirectory,
         private SluggerInterface $slugger,
     ) {

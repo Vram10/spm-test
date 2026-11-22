@@ -29,7 +29,7 @@ subtitle:
 label:
     name: Dein Name
     email: Email-Adresse
-    usrname: Benutzername
+    username: Benutzername
     password: Passwort
     password_repeat: Passwort wiederholen
     login:
